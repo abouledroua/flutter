@@ -1,0 +1,17 @@
+name: googleapis_auth
+version: 1.2.0
+description: Obtain Access credentials for Google services using OAuth 2.0
+repository: https://github.com/dart-lang/googleapis
+environment:
+  sdk: '>=2.13.0 <3.0.0'
+
+dependencies:
+  crypto: ^3.0.0
+  http: ^0.13.0
+  http_parser: ^4.0.0
+
+dev_dependencies:
+  test: ^1.16.0
+
+false_secrets:
+- test/test_utils.dart
